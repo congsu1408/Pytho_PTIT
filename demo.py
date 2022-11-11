@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 def SieveOfEratosthenes(n, prime, primesquare, a):
     for i in range(2, n+1):
         prime[i] = True
@@ -54,3 +55,40 @@ def countDivisors(n):
 
 if __name__ == '__main__':
     print("Total distinct divisors of 100 are :", countDivisors(100))
+=======
+
+def countways(a, n):
+
+	cnt = [0 for i in range(n)]
+	s = 0
+
+	s = sum(a)
+
+	if (s % 3 != 0):
+		return 0
+
+	s //= 3
+
+	ss = 0
+	for i in range(n - 1, -1, -1):
+
+		ss += a[i]
+		if (ss == s):
+			cnt[i] = 1
+	for i in range(n - 2, -1, -1):
+		cnt[i] += cnt[i + 1]
+
+	ans = 0
+	ss = 0
+	for i in range(0, n - 2):
+		ss += a[i]
+		if (ss == s):
+			ans += cnt[i + 2]
+
+	return ans
+
+
+n = 5
+a = [1, 2, 3, 0, 3]
+print(countways(a, n))
+>>>>>>> 125b802f988223d21e8e4ffe5762b4e8ae430836
