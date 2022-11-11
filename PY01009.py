@@ -1,0 +1,1 @@
+s=input();print([s.lower(),s.upper()][sum(x<'['for x in s)*2>len(s)])

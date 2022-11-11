@@ -1,0 +1,1 @@
+{"name":"Local: ICPC0105","url":"d:\\CODE\\python\\ICPC0105.py","tests":[{"id":1667034785107,"input":"3\n12ab29cd19\nab123gh456cd\n910ab123gh456cd789","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\CODE\\python\\ICPC0105.py","group":"local","local":true}

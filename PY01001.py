@@ -1,0 +1,1 @@
+print('C HLAEN'[int(input())%2::2])
