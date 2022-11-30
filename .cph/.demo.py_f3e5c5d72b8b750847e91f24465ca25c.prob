@@ -1,1 +1,1 @@
-{"name":"Local: demo","url":"d:\\CODE\\python\\demo.py","tests":[{"id":1667145266905,"input":"","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\CODE\\python\\demo.py","group":"local","local":true}
+{"name":"Local: demo","url":"d:\\CODE\\python\\demo.py","tests":[{"id":1669384898332,"input":"29","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\CODE\\python\\demo.py","group":"local","local":true}
